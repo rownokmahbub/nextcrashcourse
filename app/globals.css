@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .dark-bg{
+        @apply bg-gradient-to-r from-slate-800 from-20% via-purple-900 via-60% to-slate-800 to-80%
+    }
+  }
+  @layer components {
+    .light-bg{
+        @apply bg-gradient-to-r from-slate-50 from-20% via-purple-50 via-60% to-slate-50 to-80%
+    }
+  }
